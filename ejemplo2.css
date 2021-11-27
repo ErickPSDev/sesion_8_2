@@ -1,0 +1,73 @@
+html{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0%
+}
+
+#topsection {
+    border: 1px solid black;
+ /*   border-radius: 1rem;  nos da el borde curvo */
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 2rem;
+}
+
+#bottomsection{
+display: flex;
+color: white;
+
+
+}
+
+.left-section{
+    width: 50%;
+    height: 25rem;
+    padding: 2rem;
+    background-color: #3fa3a2;
+    color: white;
+}
+
+span {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#buttongreen{
+    background-color: yellowgreen;
+    color: white;
+    height: 48px;
+    width: 200px;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.right-section{
+    width: 50%;
+    height: 25rem;
+    padding: 1rem;
+    background-color: #21f1f8bd;
+    color: white;
+}
+
+p{
+
+}
+
+h1{
+    color: rgb(43, 70, 61);
+}
+
+h3{
+    color: greenyellow;
+}
+
+section > h3{ /*selectores complejos*/ 
+    color: red;
+}
+
+section > p{
+    color:grey;
+
+}
+
